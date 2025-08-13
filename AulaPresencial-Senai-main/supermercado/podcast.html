@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast - Supermercado Central</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/podcast.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <h1><img src="./imagens/Logo Supermercado Primavera.png" width="100" alt="logo"></h1>
+            </div>
+            
+            <!-- Menu centralizado -->
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#oferta">Oferta</a></li>
+                    <li><a href="#produto">Produto</a></li>
+                    <li><a href="podcast.html" class="ativo">Podcast</a></li>
+                    <li><a href="video.html" class="ativo">Vídeo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Campo de busca no canto superior direito -->
+            <div class="busca">
+                <input type="text" placeholder="Pesquisar produtos..." class="campo-busca">
+                <button type="button" class="botao-busca">⚬</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção do Podcast -->
+    <section class="podcast-secao">
+        <div class="container">
+            <div class="podcast-conteudo">
+                <h1 class="podcast-titulo">▶ Podcast do Supermercado</h1>
+                <p class="podcast-descricao">
+                    Bem-vindos ao nosso podcast! Aqui você encontra dicas de economia, 
+                    receitas deliciosas, novidades do supermercado e muito mais. 
+                    Ouça nossos episódios e fique por dentro de tudo!
+                </p>
+                
+                <div class="episodio-destaque">
+                    <h2>◉ Episódio em Destaque</h2>
+                    <div class="player-container">
+                        <div class="album-cover">
+                            <span class="play-icon">▶</span>
+                        </div>
+                        <div class="episodio-info">
+                            <h3> Podcast – Episódio: Como Criei o Site do Supermercado Central</h3>
+                            <p class="episodio-meta">Episódio #1 • 15 min • Publicado em 05/06/2024</p>
+                            <p class="episodio-resumo">
+                                🎧 Neste episódio, mostramos como foi a criação do site Supermercado Central, explicando cada etapa do processo com foco em organização e boa experiência para o usuário.
+
+                                Você vai descobrir como estruturamos o cabeçalho com menu e campo de busca, criamos uma galeria de brinquedos com descrições e preços, e desenvolvemos uma página de podcast integrada com player de áudio.
+                                
+                                Também falamos sobre a importância de um rodapé informativo e de manter um design simples, funcional e responsivo. Um episódio completo para quem quer entender o passo a passo da construção de um site moderno usando apenas HTML e CSS.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!-- Player de Áudio -->
+                    <div class="audio-player">
+                        <audio controls class="player">
+                            <source src="audio/podcast-episodio-1.mp3" type="audio/mpeg">
+                            <p>Seu navegador não suporta o elemento de áudio. 
+                               <a href="audio/podcast-episodio-1.mp3">Baixe o arquivo de áudio</a>.</p>
+                        </audio>
+                    </div>
+                </div>
+                
+                <!-- Lista de Episódios -->
+                <!--div class="lista-episodios">
+                    <h2>◆ Todos os Episódios</h2>
+                    
+                    <div class="episodio-item">
+                        <div class="episodio-numero">#1</div>
+                        <div class="episodio-detalhes">
+                            <h4> Podcast – Episódio: Como Criei o Site do Supermercado Central</h4>
+                            <p>15 min • 15/01/2024</p>
+                            <span class="status-novo">NOVO</span>
+                        </div>
+                        <button class="botao-play">▶</button>
+                    </div>
+                    
+                    <div class="episodio-item em-breve">
+                        <div class="episodio-numero">#2</div>
+                        <div class="episodio-detalhes">
+                            <h4>Receitas Práticas para o Dia a Dia</h4>
+                            <p>Em breve • 22/01/2024</p>
+                            <span class="status-breve">EM BREVE</span>
+                        </div>
+                        <button class="botao-play" disabled>■</button>
+                    </div>
+                    
+                    <div class="episodio-item em-breve">
+                        <div class="episodio-numero">#3</div>
+                        <div class="episodio-detalhes">
+                            <h4>Alimentação Saudável com Orçamento Limitado</h4>
+                            <p>Em breve • 29/01/2024</p>
+                            <span class="status-breve">EM BREVE</span>
+                        </div>
+                        <button class="botao-play" disabled>■</button>
+                    </div>
+                </div-->
+                
+                <!-- Inscrição -->
+                <!--div class="inscricao-podcast">
+                    <h3>▲ Não Perca Nenhum Episódio!</h3>
+                    <p>Inscreva-se para receber notificações dos novos episódios do nosso podcast:</p>
+                    <div class="form-inscricao">
+                        <input type="email" placeholder="Seu e-mail aqui..." class="input-email">
+                        <button class="botao-inscrever">Inscrever-se</button>
+                    </div>
+                </div>
+            </div>
+        </div-->
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="rodape-conteudo">
+                <div class="rodape-secao">
+                    <h3>Contato</h3>
+                    <p><strong>▪ Endereço:</strong><br>
+                    Rua das Compras, 123<br>
+                    Centro - São Paulo/SP<br>
+                    CEP: 01234-567</p>
+                </div>
+                
+                <div class="rodape-secao">
+                    <h3>Telefone</h3>
+                    <p><strong>▪ Principal:</strong><br>
+                    (11) 3456-7890</p>
+                    <p><strong>▪ WhatsApp:</strong><br>
+                    (11) 99876-5432</p>
+                </div>
+                
+                <div class="rodape-secao">
+                    <h3>E-mail</h3>
+                    <p><strong>▪ Vendas:</strong><br>
+                    vendas@supermercadocentral.com.br</p>
+                    <p><strong>▪ Suporte:</strong><br>
+                    suporte@supermercadocentral.com.br</p>
+                </div>
+                
+                <div class="rodape-secao">
+                    <h3>Redes Sociais</h3>
+                    <div class="redes-sociais">
+                        <a href="#" class="rede-social">▫ Facebook</a>
+                        <a href="#" class="rede-social">▫ Instagram</a>
+                        <a href="#" class="rede-social">▫ Twitter</a>
+                        <a href="#" class="rede-social">▫ YouTube</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rodape-bottom">
+                <p>&copy; 2024 Supermercado Central. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
