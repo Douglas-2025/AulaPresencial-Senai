@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Supermercado Central - Os melhores preços da cidade em brinquedos e produtos para toda a família.">
+    <title>Supermercado DG</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Supermercado Central - Página Inicial">
+                    <img src="./imagens/Logo Supermercado Primavera.png" alt="Logo do Supermercado Central">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html" class="ativo">🏠 Home</a></li>
+                    <li><a href="#">🎯 Ofertas</a></li>
+                    <li><a href="#">🧸 Produtos</a></li>
+                    <li><a href="podcast.html">🎧 Podcast</a></li>
+                    <li><a href="video.html">📺 Vídeos</a></li>
+                    <li><a href="#">📞 Contato</a></li>
+                </ul>
+            </nav>
+            <form class="busca-form" role="search">
+                <label for="search-input" class="sr-only">Buscar produtos</label>
+                <input type="search" id="search-input" class="campo-busca" placeholder="Buscar produtos...">
+                <button type="submit" class="botao-busca" aria-label="Pesquisar">
+                    <span class="busca-icon">🔍</span>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero-banner">
+            <div class="hero-content container">
+                <div>
+                    <h1 class="hero-title">
+                        Ofertas Especiais!
+                        <span class="subtitle">Os melhores preços da cidade</span>
+                    </h1>
+                    <p class="hero-description">
+                        Descubra nossa incrível variedade de brinquedos e produtos com qualidade garantida 
+                        e preços que cabem no seu bolso. Diversão para toda a família!
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn-primary"><span class="btn-icon">🎯</span> Ver Ofertas</a>
+                        <a href="#" class="btn-secondary"><span class="btn-icon">📍</span> Nossa Localização</a>
+                    </div>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Produtos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Satisfação</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">15</span>
+                        <span class="stat-label">Anos</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <span class="feature-icon">🚚</span>
+                        <h3>Entrega Rápida</h3>
+                        <p>Entregamos em toda São Paulo com agilidade e segurança</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">💰</span>
+                        <h3>Melhores Preços</h3>
+                        <p>Garantimos os menores preços da região com qualidade</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">🛡️</span>
+                        <h3>Garantia Total</h3>
+                        <p>Todos os produtos com garantia e suporte completo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos-section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title"><span class="title-icon">🧸</span> Nossos Brinquedos em Destaque</h2>
+                    <p class="section-subtitle">
+                        Selecionamos os melhores brinquedos para proporcionar momentos únicos de diversão e aprendizado
+                    </p>
+                </header>
+                <div class="produtos-grid">
+                    <article class="produto-card">
+                        <span class="produto-badge">Mais Vendido</span>
+                        <div class="produto-image">
+                            <img src="./imagens/uso.jpg" alt="Urso de Pelúcia">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Urso de Pelúcia</h3>
+                            <p>Urso macio e fofo, perfeito para crianças de todas as idades. Material hipoalergênico e lavável.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(127 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 45,90</span>
+                                <span class="price-old">R$ 59,90</span>
+                                <span class="discount">23% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                    <article class="produto-card">
+                        <span class="produto-badge new">Novidade</span>
+                        <div class="produto-image">
+                            <img src="./imagens/carrinh contre.jpg" alt="Carrinho de Controle Remoto">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Carrinho de Controle</h3>
+                            <p>Carrinho com controle remoto, luzes e sons. Diversão garantida para os pequenos pilotos.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(89 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 89,90</span>
+                                <span class="price-old">R$ 119,90</span>
+                                <span class="discount">25% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                    <article class="produto-card">
+                        <div class="produto-image">
+                            <img src="./imagens/quebrea.jpg" alt="Quebra-cabeça 500 Peças">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Quebra-cabeça 500 peças</h3>
+                            <p>Quebra-cabeça educativo com belas ilustrações. Desenvolve raciocínio e coordenação motora.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(156 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 32,50</span>
+                                <span class="price-old">R$ 42,90</span>
+                                <span class="discount">24% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                    <article class="produto-card">
+                        <span class="produto-badge popular">Popular</span>
+                        <div class="produto-image">
+                            <img src="./imagens/boneca.jpg.webp" alt="Boneca Estilosa">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Boneca Estilosa</h3>
+                            <p>Boneca com roupas da moda e acessórios. Inclui escova de cabelo e sapatos extras.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(203 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 67,90</span>
+                                <span class="price-old">R$ 84,90</span>
+                                <span class="discount">20% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                    <article class="produto-card">
+                        <div class="produto-image">
+                            <img src="./imagens/tabuleiro.jpg" alt="Jogo de Tabuleiro">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Jogo de Tabuleiro</h3>
+                            <p>Jogo divertido para toda a família. Estratégia, diversão e momentos únicos juntos.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(98 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 54,90</span>
+                                <span class="price-old">R$ 69,90</span>
+                                <span class="discount">21% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                    <article class="produto-card">
+                        <span class="produto-badge creative">Criativo</span>
+                        <div class="produto-image">
+                            <img src="./imagens/pintura.jpg" alt="Kit de Pintura">
+                            <div class="produto-overlay">
+                                <button class="btn-quick-view">👁️ Visualizar</button>
+                            </div>
+                        </div>
+                        <div class="produto-info">
+                            <h3>Kit de Pintura</h3>
+                            <p>Kit completo com tintas, pincéis e tela. Desperte a criatividade artística das crianças.</p>
+                            <div class="produto-rating">
+                                <span class="stars">⭐⭐⭐⭐⭐</span>
+                                <span class="rating-count">(174 avaliações)</span>
+                            </div>
+                            <div class="produto-price">
+                                <span class="price-current">R$ 41,90</span>
+                                <span class="price-old">R$ 54,90</span>
+                                <span class="discount">24% OFF</span>
+                            </div>
+                            <button class="btn-add-cart">🛒 Adicionar ao Carrinho</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="produtos-actions">
+                    <button class="btn-load-more">Ver Mais Produtos</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="newsletter-content container">
+                <div class="newsletter-text">
+                    <h3>📧 Não Perca Nenhuma Oferta!</h3>
+                    <p>Receba em primeira mão nossas promoções exclusivas, lançamentos e dicas especiais.</p>
+                </div>
+                <form class="newsletter-form">
+                    <label for="newsletter-email" class="sr-only">Insira seu e-mail</label>
+                    <input type="email" id="newsletter-email" placeholder="Seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-main container">
+            <div class="rodape-logo">
+                <h3>Supermercado Central</h3>
+                <p>Os melhores preços da cidade com qualidade garantida há 15 anos.</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📍 Contato</h4>
+                <p><strong>Endereço:</strong> Rua das Compras, 123<br>Centro - São Paulo/SP<br>CEP: 01234-567</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📞 Telefones</h4>
+                <p><strong>Principal:</strong> (11) 3456-7890</p>
+                <p><strong>WhatsApp:</strong> (11) 99876-5432</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📧 E-mails</h4>
+                <p><strong>Vendas:</strong> <a href="mailto:vendas@supermercadocentral.com.br">vendas@supermercadocentral.com.br</a></p>
+                <p><strong>Suporte:</strong> <a href="mailto:suporte@supermercadocentral.com.br">suporte@supermercadocentral.com.br</a></p>
+            </div>
+            <div class="rodape-section">
+                <h4>🌐 Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link"><span class="social-icon">📘</span> Facebook</a>
+                    <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
+                    <a href="#" class="social-link"><span class="social-icon">📺</span> YouTube</a>
+                    <a href="#" class="social-link"><span class="social-icon">🐦</span> Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="rodape-bottom">
+            <div class="rodape-bottom-content container">
+                <p>© 2024 Supermercado Central. Todos os direitos reservados.</p>
+                <div class="rodape-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#main-content">Voltar ao Topo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vídeos de apresentação do Supermercado Central.">
+    <title>Vídeos - Supermercado Central</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" aria-label="Supermercado Central - Página Inicial">
+                    <img src="./imagens/Logo Supermercado Primavera.png" alt="Logo do Supermercado Central">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">🏠 Home</a></li>
+                    <li><a href="ofertas.html">🎯 Ofertas</a></li>
+                    <li><a href="produtos.html">🧸 Produtos</a></li>
+                    <li><a href="podcast.html">🎧 Podcast</a></li>
+                    <li><a href="video.html" class="ativo">📺 Vídeos</a></li>
+                    <li><a href="contato.html">📞 Contato</a></li>
+                </ul>
+            </nav>
+            <form class="busca-form" role="search">
+                <label for="search-input" class="sr-only">Buscar produtos</label>
+                <input type="search" id="search-input" class="campo-busca" placeholder="Buscar produtos...">
+                <button type="submit" class="botao-busca" aria-label="Pesquisar">
+                    <span class="busca-icon">🔍</span>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="videos-section" style="padding: var(--space-20) 0; background: var(--gray-50);">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title"><span class="title-icon">📺</span> Vídeos de Apresentação</h2>
+                    <p class="section-subtitle">
+                        Assista ao nosso vídeo de apresentação e descubra mais sobre o Supermercado Central.
+                    </p>
+                </header>
+                <div style="display: flex; justify-content: center;">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/1IxBc6Tsn0Q?si=CKb9kLY1K9SsXTse" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="newsletter-content container">
+                <div class="newsletter-text">
+                    <h3>📧 Não Perca Nenhuma Oferta!</h3>
+                    <p>Receba em primeira mão nossas promoções exclusivas, lançamentos e dicas especiais.</p>
+                </div>
+                <form class="newsletter-form">
+                    <label for="newsletter-email" class="sr-only">Insira seu e-mail</label>
+                    <input type="email" id="newsletter-email" placeholder="Seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-main container">
+            <div class="rodape-logo">
+                <h3>Supermercado Central</h3>
+                <p>Os melhores preços da cidade com qualidade garantida há 15 anos.</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📍 Contato</h4>
+                <p><strong>Endereço:</strong> Rua das Compras, 123<br>Centro - São Paulo/SP<br>CEP: 01234-567</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📞 Telefones</h4>
+                <p><strong>Principal:</strong> (11) 3456-7890</p>
+                <p><strong>WhatsApp:</strong> (11) 99876-5432</p>
+            </div>
+            <div class="rodape-section">
+                <h4>📧 E-mails</h4>
+                <p><strong>Vendas:</strong> <a href="mailto:vendas@supermercadocentral.com.br">vendas@supermercadocentral.com.br</a></p>
+                <p><strong>Suporte:</strong> <a href="mailto:suporte@supermercadocentral.com.br">suporte@supermercadocentral.com.br</a></p>
+            </div>
+            <div class="rodape-section">
+                <h4>🌐 Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link"><span class="social-icon">📘</span> Facebook</a>
+                    <a href="#" class="social-link"><span class="social-icon">📷</span> Instagram</a>
+                    <a href="#" class="social-link"><span class="social-icon">📺</span> YouTube</a>
+                    <a href="#" class="social-link"><span class="social-icon">🐦</span> Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="rodape-bottom">
+            <div class="rodape-bottom-content container">
+                <p>© 2024 Supermercado Central. Todos os direitos reservados.</p>
+                <div class="rodape-links">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#main-content">Voltar ao Topo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
